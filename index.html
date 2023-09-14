@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="resume of himanshu sharma, btech cse from ujjain engineering college. proficient in python, C/C++, java, javascript. Holds internship as backend developer, machine learning intern at radiatechs technologies for 5 months." />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container container--padded-little">
+        <header>
+            <span class="large italics"><a href="/">Resume Builder</a></span>
+        </header>
+        <div>
+            <label>Name</label>
+            <input id="name" type="text">
+            <hr>
+            <label>Contact Details</label>
+            <table id="contactDetails">
+                <tr>
+                    <td>Label</td>
+                    <td>Value</td>
+                    <td>Push to header</td>
+                </tr>
+            </table>
+            <button id="addContactEntryRow">+</button>
+            <hr>
+            <label>Skills</label>
+            <table id="skills">
+                <tr>
+                    <td>Label</td>
+                </tr>
+            </table>
+            <button id="addSkillsEntryRow">+</button>
+            <hr>
+            <label>Education Qualifications</label>
+            <table id="education">
+                <tr>
+                    <td>Label</td>
+                    <td>Institution Name</td>
+                    <td>Duration</td>
+                    <td>Aggregate</td>
+                </tr>
+            </table>
+            <button id="addEducationEntryRow">+</button>
+            <hr>
+            <label>Projects</label>
+            <table id="projects">
+                <tr>
+                    <td>Label</td>
+                    <td>Detail</td>
+                </tr>
+            </table>
+            <button id="addProjectEntryRow">+</button>
+            <hr>
+            <label>Experience</label>
+            <table id="experience">
+                <tr>
+                    <td>Label</td>
+                    <td>Duration</td>
+                    <td>Detail</td>
+                </tr>
+            </table>
+            <button id="addExperienceEntryRow">+</button>
+            <hr>
+            <label>Certificate</label>
+            <table id="certificates">
+                <tr>
+                    <td>Label</td>
+                </tr>
+            </table>
+            <button id="addCertificateEntryRow">+</button>
+            <hr>
+            <button id="resumeRender">RENDER</button>
+            <button id="resumeSave">PUSH</button>
+            <button id="resumeDelete" hidden>DELETE</button>
+        </div>
+    </div>
+    <footer id="listPages"></footer>
+    <div class="container container--fix-width" id="renderResult">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

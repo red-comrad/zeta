@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+
+}
+
+
+.container {
+    border: 1px solid rgb(186, 213, 255);
+}
+
+.container--fix-width{
+    width: 800px;
+    aspect-ratio: 1/1.414;
+}
+
+.container--padded-little{
+    padding: 5px;
+}
+
+header {
+    background-color: rgb(35, 77, 139);
+    color: white;
+    padding: 5px 10px;
+}
+
+.large {
+    font-size: 3rem;
+}
+
+.small {
+    font-size: small;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.white {
+    border-color: white;
+    border-width: 1px 0px 0px 0px;
+}
+
+.partial-length {
+    width: 85%;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    padding: 5px 10px;
+}
+
+.skills {
+    flex: 0.37;
+    padding: 5px 10px;
+    background-color: rgb(187, 217, 249);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.skills>* {
+    flex: 1;
+}
+
+.documental {
+    flex: 1;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.documental>* {
+    flex: 1;
+}
+
+.medium {
+    font-size: 1.5rem;
+}
+
+.content-row {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.section-heading {
+    border-bottom: 1px solid rgb(130, 164, 218);
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(40, 88, 172);
+}
+
+.section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-row {
+    flex: 1;
+}
+
+footer {
+    bottom: 0px;
+    border-top: 1px solid rgb(186, 213, 255);
+    width: 100%;
+}
+
+.grey {
+    color: rgb(97, 97, 97);
+}
+
+.sub-medium {
+    font-size: 1.23rem;
+    padding: 5px 0px;
+    text-decoration: underline;
+}
+
+.position-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+}
+
+
+label, input, button {
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+label {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button {
+    margin: 5px 10px;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+footer {
+    padding: 5px 10px;
+}
+
+footer a {
+    margin: 5px 10px;
+}
+
+#renderResult{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

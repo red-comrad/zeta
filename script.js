@@ -339,7 +339,7 @@ document.getElementById("resumeSave").addEventListener("click", (e) => {
     let markup = renderResume(ret);
     document.getElementById("renderResult").innerHTML = markup.outerHTML;
     alert("Successfully Saved the Resume");
-    footerUpdate();
+    footerUpdate(resumeId);
 });
 
 document.getElementById("resumeDelete").addEventListener("click", (e) => {
@@ -376,6 +376,8 @@ function start(){
 function dragover(){
   var e = event;
   e.preventDefault(); 
+
+  console.log(e.target.parentNode);
   
   let children= Array.from(e.target.parentNode.parentNode.children);
   
